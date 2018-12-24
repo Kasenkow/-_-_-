@@ -10,8 +10,9 @@ It is recommended to have at least 15 complete forms. Each form should contain 1
 Each column in such a table contains aggregated primary, secondary and tertiary words associated with the main concept.
 
 As an input one should use a csv-table of 3 columns (a combination of all filled forms). As an output one will get 2 csv-tables:
-1) a table of word frequencies (in their basic forms) for each column. Only words that appear more than 1 time have counts, otherwise the corresponding cell is left blank.
-2) a table of incident vertices for the planned graph (adjacency list). Graph can be visualized via Gephi
+1) a table of word frequencies (in their basic forms) for each column. Only words that appear more than once have counts, otherwise the corresponding cell is left blank;
+2) a table of incident vertices for the planned graph (adjacency list). Graph can be visualized via Gephi (an open-source network analysis and visualization software package)
 
 Credits:
 preprocessig function for Russian text was adopted from https://www.kaggle.com/alxmamaev/how-to-easy-preprocess-russian-text
+Gephi: https://gephi.org/
